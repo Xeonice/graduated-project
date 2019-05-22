@@ -20,3 +20,5 @@ import { Input, Button } from 'antd'
 </div>
 
  <Button type="primary">Click twice</Button>
+
+  <Input placeholder="Last name" />
