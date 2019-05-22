@@ -101,5 +101,5 @@ module.exports = {
     // 'gatsby-plugin-offline',
   ],
   /// this must match the path your webpage is displayed from
-  pathPrefix: '/gatsby-antd-docs',
+  pathPrefix: '/',
 }
