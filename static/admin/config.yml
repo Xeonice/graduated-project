@@ -35,5 +35,5 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "root", name: "root", widget: "hidden", default: "/docs"}
       - {label: "parents", name: "parents", widget: "hidden", default: "['Lorem Ipsum']"}
-      - {label: "Body", name: "body", widget: "markdown"}:
+      - {label: "Body", name: "body", widget: "markdown"}
 
