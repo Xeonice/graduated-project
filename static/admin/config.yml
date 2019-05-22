@@ -26,8 +26,8 @@ collections:
       - {label: "root", name: "root", widget: "hidden", default: "/docs"}
       - {label: "parents", name: "parents", widget: "hidden", default: "['Guide']"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "lorem-ipsum"
-    label: "lorem-ipsum"
+  - name: "lorem"
+    label: "lorem"
     folder: "contents/docs/lorem-ipsum"
     create: true
     slug: "{{slug}}"
