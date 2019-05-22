@@ -15,8 +15,9 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "root", name: "root", widget: "hidden", default: "/docs"}
       - {label: "parents", name: "parents", widget: "hidden", default: "['Get Started']"}
-  - name: "Docs"
-    label: "Docs"
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "Guide"
+    label: "Guide"
     folder: "contents/docs/guide"
     create: true
     slug: "{{slug}}"
@@ -24,3 +25,14 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "root", name: "root", widget: "hidden", default: "/docs"}
       - {label: "parents", name: "parents", widget: "hidden", default: "['Guide']"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "lorem-ipsum"
+    label: "lorem-ipsum"
+    folder: "contents/docs/lorem-ipsum"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "root", name: "root", widget: "hidden", default: "/docs"}
+      - {label: "parents", name: "parents", widget: "hidden", default: "['Lorem Ipsum']"}
+      - {label: "Body", name: "body", widget: "markdown"}
