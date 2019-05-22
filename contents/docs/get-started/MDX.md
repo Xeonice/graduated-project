@@ -6,7 +6,7 @@ parents:
 ---
 import { Input, Button } from 'antd'
 
-# A mix of Markdown, Frontmatter and JSX
+# A mix of Markdown, Frontmatter and JSXTest
 
 <div style={{ display:"grid", gridGap:"10px", maxWidth:"450px" }}>
 
