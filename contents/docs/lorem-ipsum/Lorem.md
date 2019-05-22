@@ -202,3 +202,18 @@ Classe et pro torvamque Tempe! Succidere [pendenti
 vixque](http://www.modumque-saevitiam.net/adiciunt.html), hoc vates et conplet
 relatu cruentos quod fertque cumba quod discrimen. _Populator potentia in_
 structa ut decor sororum traiecit igitur. Nec rigore protinus, plangor clamat.
+
+import { Input, Button } from 'antd'
+
+# A mix of Markdown, Frontmatter and JSX
+
+<div style={{ display:"grid", gridGap:"10px", maxWidth:"450px" }}>
+
+<div style={{ background: '#1890ff33', padding: '5px', borderRadius: '5px' }}>
+  hello world
+</div>
+
+  <Input placeholder="First name" />
+  <Button type="primary">click me</Button>
+
+</div>

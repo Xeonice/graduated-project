@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/img
+public_folder: /img
+
+collections:
+  - name: "Get Started"
+    label: "Get Started"
+    folder: "contents/docs/get-started"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "root", name: "root", widget: "hidden", default: "/docs"}
+      - {label: "parents", name: "parents", widget: "hidden", default: "['Get Started']"}
+  - name: "Docs"
+    label: "Docs"
+    folder: "contents/docs/guide"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "root", name: "root", widget: "hidden", default: "/docs"}
+      - {label: "parents", name: "parents", widget: "hidden", default: "['Guide']"}
