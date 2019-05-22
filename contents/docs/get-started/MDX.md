@@ -1,9 +1,9 @@
 ---
 title: MDX
-root: '/docs'
-parents: ['Get Started']
+root: /docs
+parents:
+  - Get Started
 ---
-
 import { Input, Button } from 'antd'
 
 # A mix of Markdown, Frontmatter and JSX
@@ -18,3 +18,5 @@ import { Input, Button } from 'antd'
   <Button type="primary">click me</Button>
 
 </div>
+
+ <Button type="primary">Click twice</Button>
