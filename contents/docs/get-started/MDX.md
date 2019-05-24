@@ -21,4 +21,6 @@ import { Input, Button } from 'antd'
 
  <Button type="primary">Click twice</Button>
 
+<Button type="primary">测试按钮</Button>
+
   <Input placeholder="Last name" />
