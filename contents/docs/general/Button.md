@@ -9,7 +9,7 @@ parents: ['General']
 import 'rsuite/dist/styles/rsuite.min.css'; // or 'rsuite/dist/styles/rsuite.min.css'
 import { Button, IconButton, ButtonGroup, ButtonToolbar } from 'rsuite';
 
-常用的操作按钮，按钮组合，按钮布局。
+常用的操作按钮，按钮组合，按钮布局。添加内容
 
 * `<Button>` 是组件中最基础的元素，可以快速创建一个带样式的按钮。
 * `<IconButton>` 图标按钮组件。
@@ -25,6 +25,7 @@ import { Button, IconButton, ButtonGroup, ButtonToolbar } from 'rsuite';
 ## 演示
 
 <Button>Default</Button>
+<Button apperance="primary" color="red">次要Button</Button>
 
 ## Props
 
