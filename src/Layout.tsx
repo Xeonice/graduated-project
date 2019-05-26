@@ -1,6 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql, Link } from 'gatsby'
+import 'rsuite/dist/styles/rsuite.min.css';
 import { Header } from './Header'
 import { pathPrefix } from '../gatsby-config'
 import { Layout, Breadcrumb } from 'antd'
