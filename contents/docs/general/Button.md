@@ -6,7 +6,7 @@ parents: ['General']
 
 # Button 按钮
 
-import { Button, IconButton, ButtonGroup, ButtonToolbar } from 'rsuite';
+import { Button } from 'antd';
 
 常用的操作按钮，按钮组合，按钮布局。添加内容
 
