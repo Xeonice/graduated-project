@@ -4,7 +4,6 @@ root: /docs
 parents:
   - General
 ---
-
 # Button 按钮
 
 import { Button } from 'antd';
@@ -28,39 +27,41 @@ import { Button, IconButton, ButtonGroup, ButtonToolbar } from 'rsuite';
 <Button apperance="primary" color="red">次要ButtonButtonTest</Button>
 <Button>测试Button在线修改</Button>
 
+![测试](/img/358356f20043d6e7b1cd2d4564c_b8cdce40_73a1c.jpg)
+
 ## Props
 
 ### `<Button>`
 
-| 属性名称       | 类型 `(默认值)`                                                          | 描述                   |
-| -------------- | ------------------------------------------------------------------------ | ---------------------- |
-| active         | boolean                                                                  | 激活状态               |
-| appearance     | enum: 'default', 'primary', 'link', 'subtle', 'ghost'<br/> `('default')` | 设置外观               |
-| block          | boolean                                                                  | 显示为块级元素         |
-| children \*    | React.Node                                                               | 组件的内容             |
-| classPrefix    | string `('btn')`                                                         | 组件 CSS 类的前缀      |
-| color          | enum: 'red', 'orange','yellow', 'green', <br/>'cyan', 'blue', 'violet'   | 设置颜色               |
-| componentClass | React.ElementType `('button')`                                           | 为组件自定义元素类型   |
-| disabled       | boolean                                                                  | 禁用                   |
-| href           | string                                                                   | 按钮跳转链接           |
+| 属性名称           | 类型 `(默认值)`                                                               | 描述          |
+| -------------- | ------------------------------------------------------------------------ | ----------- |
+| active         | boolean                                                                  | 激活状态        |
+| appearance     | enum: 'default', 'primary', 'link', 'subtle', 'ghost'<br/> `('default')` | 设置外观        |
+| block          | boolean                                                                  | 显示为块级元素     |
+| children *     | React.Node                                                               | 组件的内容       |
+| classPrefix    | string `('btn')`                                                         | 组件 CSS 类的前缀 |
+| color          | enum: 'red', 'orange','yellow', 'green', <br/>'cyan', 'blue', 'violet'   | 设置颜色        |
+| componentClass | React.ElementType `('button')`                                           | 为组件自定义元素类型  |
+| disabled       | boolean                                                                  | 禁用          |
+| href           | string                                                                   | 按钮跳转链接      |
 | loading        | boolean                                                                  | 按钮可以显示加载指示器 |
-| size           | enum: 'lg', 'md', 'sm', 'xs' `('md')`                                    | 设置按钮尺寸           |
+| size           | enum: 'lg', 'md', 'sm', 'xs' `('md')`                                    | 设置按钮尺寸      |
 
 ### `<IconButton>`
 
 IconButton 继承所有 Button 的属性
 
-| 属性名称    | 类型`(默认值)`                   | 描述              |
-| ----------- | -------------------------------- | ----------------- |
-| circle      | boolean                          | 设置为圆形按钮    |
+| 属性名称        | 类型`(默认值)`                        | 描述          |
+| ----------- | -------------------------------- | ----------- |
+| circle      | boolean                          | 设置为圆形按钮     |
 | classPrefix | string `('btn-icon')`            | 组件 CSS 类的前缀 |
-| icon        | React.Element&lt;typeof Icon&gt; | 设置图标          |
-| placement   | enum: 'left', 'right' `('left')` | icon 的位置       |
+| icon        | React.Element&lt;typeof Icon&gt; | 设置图标        |
+| placement   | enum: 'left', 'right' `('left')` | icon 的位置    |
 
 ### `<ButtonGroup>`
 
-| 属性名称    | 类型`(默认值)`               | 描述              |
-| ----------- | ---------------------------- | ----------------- |
+| 属性名称        | 类型`(默认值)`                    | 描述          |
+| ----------- | ---------------------------- | ----------- |
 | block       | boolean                      | 适应容器宽度      |
 | classPrefix | string `('btn-group')`       | 组件 CSS 类的前缀 |
 | justified   | boolean                      | 横向等宽布局      |
