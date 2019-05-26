@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Ant-Design Documentation Starter',
+    title: 'React-Suite Components',
   },
   plugins: [
     `gatsby-plugin-typescript`,

@@ -15,22 +15,16 @@ const IndexPage = () => {
           fontWeight: 'bold',
         }}
       >
-        Gatsby Ant Design Docs Boilerplate
+        React-Suite Components
       </p>
-      <h2>A gatsby starter to create documentation websites</h2>
-      <p>
-        This is a fork of{' '}
-        <a href="https://github.com/cvluca/gatsby-starter-markdown">
-          https://github.com/cvluca/gatsby-starter-markdown
-        </a>
-      </p>
+      <h2>一款提供React-Suite体验的开发文档生成器</h2>
       <br />
       <Button.Group size="large">
         <Button
           href="https://twitter.com/jannikbuschke"
           target="_blank"
         >
-          Twitter
+          Wechat
           <Icon type="twitter" />
         </Button>
         <Button
@@ -41,7 +35,7 @@ const IndexPage = () => {
           <Icon type="github" />
         </Button>
         <Button type="primary" >
-          <Link to="/docs/get-started/introduction">Get Started</Link>
+          <Link to="/docs/get-started/introduction">开始使用</Link>
         </Button>
       </Button.Group>
     </div>
